@@ -1,7 +1,7 @@
 # Smile-Detector: A ML and OpenCV Based System for Accurate Smile Detection 
 ### By [Steven Kam('25)](https://github.com/SKam23), [Shaheer Aslam('25)](https://github.com/shaheermaslam02),[Sajan Shah('25)](https://github.com/sajshah6)
 
-The [**Smile-Dectector**](https://github.com/SKam23/Smile-Detector/blob/main/10315_Final_Project.ipynb) is an advanced machine learning project that uses computer vision techniques to accurately detect whether or not a person is smiling. Leveraging a dataset of 10,000 celebrity images, with 5,000 labeled as smiling and 5,000 labeled as not smiling, we trained a Convolutional Neural Network (CNN) using TensorFlow to classify images based on the presence of a smile. Our model was optimized using hyperparameter tuning and achieved an accuracy of over 95% on a holdout test set, making it highly accurate for practical applications.
+The [**Smile-Dectector**](https://github.com/SKam23/Smile-Detector/blob/main/SmileDetector.ipynb) is an advanced machine learning project that uses computer vision techniques to accurately detect whether or not a person is smiling. Leveraging a dataset of 10,000 celebrity images, with 5,000 labeled as smiling and 5,000 labeled as not smiling, we trained a Convolutional Neural Network (CNN) using TensorFlow to classify images based on the presence of a smile. Our model was optimized using hyperparameter tuning and achieved an accuracy of over 95% on a holdout test set, making it highly accurate for practical applications.
 
 <p align="center">
   <img src="/assets/SmileOrNot.png" width="500" height="410">
