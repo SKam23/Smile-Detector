@@ -19,6 +19,9 @@ We experimented with different deep learning architectures, including Convolutio
 
 Smile Dectector utilized the trained CNN and MobleNet Models and the OpenCV computer vision library to accurately detect and enable real-time smile detection on live video feeds. Our system uses OpenCV to capture and process video frames, and then applies our pre-trained CNN model to classify each frame as "smiling" or "not smiling". This process is performed on the GPU for faster performance, allowing our system to achieve high throughput and low latency even on low-end hardware.
 
+<img src="https://user-images.githubusercontent.com/69233170/235587275-60523dc0-8330-456f-9735-0b9bc4e18991.mov"  width="500" height="410">
+
+
 ## Next Steps
 
 * Expand the dataset: While our current dataset of celebrity images performed well, it is limited in scope. Collecting a larger and more diverse dataset would further improve the accuracy and robustness of our model.
