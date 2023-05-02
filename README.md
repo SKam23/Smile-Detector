@@ -1,5 +1,5 @@
 # 10315-Final-Project - Smile Detector
-***Authors:** Shaheer Aslam, Steven Kam, Sajan Shah
+***Authors:** Shaheer Aslam, Steven Kam, Sajan Shah*
 
 ### Introduction
 
