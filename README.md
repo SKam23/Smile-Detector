@@ -1,7 +1,11 @@
 # Smile-Detector: A ML and OpenCV Based System for Accurate Smile Detection 
 ### By [Steven Kam('25)](https://github.com/SKam23), [Shaheer Aslam('25)](https://github.com/shaheermaslam02),[Sajan Shah('25)](https://github.com/sajshah6)
 
-The **Smile-Dectector** is an advanced machine learning project that uses computer vision techniques to accurately detect whether or not a person is smiling. Leveraging a dataset of 10,000 celebrity images, with 5,000 labeled as smiling and 5,000 labeled as not smiling, we trained a Convolutional Neural Network (CNN) using TensorFlow to classify images based on the presence of a smile. Our model was optimized using hyperparameter tuning and achieved an accuracy of over 95% on a holdout test set, making it highly accurate for practical applications.
+The [**Smile-Dectector**](https://github.com/SKam23/Smile-Detector/blob/main/10315_Final_Project.ipynb) is an advanced machine learning project that uses computer vision techniques to accurately detect whether or not a person is smiling. Leveraging a dataset of 10,000 celebrity images, with 5,000 labeled as smiling and 5,000 labeled as not smiling, we trained a Convolutional Neural Network (CNN) using TensorFlow to classify images based on the presence of a smile. Our model was optimized using hyperparameter tuning and achieved an accuracy of over 95% on a holdout test set, making it highly accurate for practical applications.
+
+<p align="center">
+  <img src="/assets/SmileOrNot.png" width="500" height="410">
+</p>
 
 ## Dataset
 
@@ -14,5 +18,13 @@ We experimented with different deep learning architectures, including Convolutio
 ## Live Smile Detection
 
 Smile Dectector utilized the trained CNN and MobleNet Models and the OpenCV computer vision library to accurately detect and enable real-time smile detection on live video feeds. Our system uses OpenCV to capture and process video frames, and then applies our pre-trained CNN model to classify each frame as "smiling" or "not smiling". This process is performed on the GPU for faster performance, allowing our system to achieve high throughput and low latency even on low-end hardware.
+
+## Next Steps
+
+* Expand the dataset: While our current dataset of celebrity images performed well, it is limited in scope. Collecting a larger and more diverse dataset would further improve the accuracy and robustness of our model.
+* Improve the real-time detection speed: While our current implementation achieves high throughput, there is still room for improvement in terms of detection speed. 
+* Expand the scope: Smile detection is just one application of computer vision and machine learning. In the future, we plan to explore other applications such as emotion detection, object recognition, and more.
+
+
 
 
